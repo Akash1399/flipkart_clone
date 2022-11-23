@@ -19,7 +19,7 @@ export const PreviousBtn = ({ className, onClick }) => {
 export const NextBtn = ({ className, onClick }) => {
   return (
     <div className={className} onClick={onClick}>
-      <CaretRight size={32} />{" "}
+      <CaretRight size={32} />
     </div>
   );
 };
@@ -27,7 +27,7 @@ export const NextBtn = ({ className, onClick }) => {
 function Banner() {
   const settings = {
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     dots: false,
     infinite: true,
     speed: 500,
